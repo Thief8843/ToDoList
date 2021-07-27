@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'GFS Didot', serif;
+ 
+}
+
+body{
+width: 100vw;
+height: 100vh;
+
+}
+.flex-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.to-do-list{
+    border: 2px solid black;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-task-div{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1rem auto 3.1rem;
+}
+
+.check-div{
+    align-self: center;
+}
+
+.main-content{
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+
+button{
+    width: 3rem;
+}
+
+
+header{
+    text-align: center;
+    font-size: 2rem;
+}
